@@ -8,7 +8,7 @@ public class 업다운게임 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// 난수 발생	
+		// 난수 발생	와랄랄랄라
 				int com=(int)(Math.random()*100)+1;
 				Scanner scan=new Scanner(System.in);
 				while(true)
