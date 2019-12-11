@@ -18,7 +18,7 @@ public class 단항연산자_부정연산자 {
 		// TODO Auto-generated method stub
 		boolean bCheck=false;
 		System.out.println("bCheck 변경 전:"+bCheck);
-		bCheck=!bCheck;
+		bCheck=!bCheck; 
 		System.out.println("bCheck 변경 후:"+bCheck);
 	}
 
