@@ -43,7 +43,7 @@ public class 배열3 {
 													<dd class="txt_main">애니메이션/어드벤처/코미디/판타지/뮤지컬</dd>
 
 																
-			 */
+			*/
 			Element title_kr=doc2.selectFirst("div.subject_movie strong.tit_movie");
 			Element title_en=doc2.selectFirst("div.subject_movie span.txt_origin");
 			Element score=doc2.selectFirst("a.raking_grade em.emph_grade");
@@ -53,14 +53,14 @@ public class 배열3 {
 			Element director=doc2.select("dl.list_movie dd").get(4);
 			Element actor=doc2.select("dl.list_movie dd").get(5);
 			
-				/*
-				 * System.out.println("count: "+(k)); System.out.println(title_kr.text());
-				 * System.out.println(title_en.text()); System.out.println(score.text());
-				 * System.out.println(genre.text()); System.out.println(regdate.text());
-				 * System.out.println(grade.text()); System.out.println(director.text());
-				 * System.out.println(actor.text());
-				 * System.out.println("==================================");
-				 */
+				
+				  System.out.println("count: "+(k)); System.out.println(title_kr.text());
+				  System.out.println(title_en.text()); System.out.println(score.text());
+				  System.out.println(genre.text()); System.out.println(regdate.text());
+				  System.out.println(grade.text()); System.out.println(director.text());
+				  System.out.println(actor.text());
+				  System.out.println("==================================");
+				 
 			
 			m[i]=new MOVIE();    // 클래스를 저장하는 법   ( new 에다가 null을 출력 안하게 하려고 주소값을 주고 있는 것!)
 			m[i].title_kr=title_kr.text();
