@@ -17,6 +17,8 @@ public class 문자열클래스2 {
 	{
 		boolean bCheck=false;
 		final String ID = "admin";
+		// ID = "aaa";  (X) 상수이기 때문에 변하는 값을 넣을 수 없다
+		
 		final String PW="1234";
 		if(id.equalsIgnoreCase(ID)	&& 	pw.equals(PW))      // : 대소문자 구분없이 Case를 Ignore
 		//if(id.equals(ID)	&&	pw.equals(PW))
