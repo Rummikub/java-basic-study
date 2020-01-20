@@ -48,7 +48,7 @@ public class Client extends JFrame implements ActionListener,Runnable{
 			try
 			{
 				// 연결
-				s=new Socket("211.238.142.190",8888);
+				s=new Socket("211.238.142.199",8888);
 				out=s.getOutputStream(); // 클라에게 전송
 				in=new BufferedReader(new InputStreamReader(s.getInputStream()));  
 				// 서버로부터 값을 받아옴
